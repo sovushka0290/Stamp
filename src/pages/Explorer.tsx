@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ShieldCheck, Clock, CheckCircle2, Copy, Bug, Eye, X, AlertTriangle } from "lucide-react";
+import { ShieldCheck, Clock, CheckCircle2, Copy, Bug, Eye, X, AlertTriangle, Activity } from "lucide-react";
 import { format } from "date-fns";
 import { cn } from "../lib/utils";
 import { motion, AnimatePresence } from "motion/react";

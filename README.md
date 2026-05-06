@@ -11,7 +11,8 @@ This project is built using:
 
 - **Clinic MIS Terminal**: Simulates a hospital system creating immutable digital fingerprints for patient visits.
 - **Patient TMA**: Simulates a Telegram Mini App for patients to cryptographically sign their visit via HMAC validation.
-- **Zero-Knowledge Explorer**: Public audit ledger (for insurance/regulators) demonstrating blockchain-style event verification and fraud detection.
+- **Zero-Knowledge Explorer**: Public audit le
+dger (for insurance/regulators) demonstrating blockchain-style event verification and fraud detection.
 
 ## Deploying to Vercel
 
