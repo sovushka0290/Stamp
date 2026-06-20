@@ -1,5 +1,5 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
-import { Activity, ShieldCheck, Database, Smartphone, Terminal } from "lucide-react";
+import { Activity, ShieldCheck, Database, Smartphone, Terminal, Fingerprint } from "lucide-react";
 import { Toaster } from "react-hot-toast";
 import { cn } from "../lib/utils";
 
@@ -10,6 +10,7 @@ export function Layout() {
     { name: "Explorer", path: "/explorer", icon: Database },
     { name: "Clinic MIS", path: "/clinic", icon: Activity },
     { name: "Patient TMA", path: "/patient", icon: Smartphone },
+    { name: "Patient Tokenizer", path: "/tokenizer", icon: Fingerprint },
   ];
 
   return (

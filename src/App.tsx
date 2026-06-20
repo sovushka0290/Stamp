@@ -9,6 +9,7 @@ import { Landing } from "./pages/Landing";
 import { Explorer } from "./pages/Explorer";
 import { Clinic } from "./pages/Clinic";
 import { PatientApp } from "./pages/PatientApp";
+import { Tokenizer } from "./pages/Tokenizer";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route index element={<Landing />} />
           <Route path="explorer" element={<Explorer />} />
           <Route path="clinic" element={<Clinic />} />
+          <Route path="tokenizer" element={<Tokenizer />} />
           <Route
             path="patient"
             element={
