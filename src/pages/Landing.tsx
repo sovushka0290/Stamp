@@ -161,7 +161,7 @@ export function Landing() {
               <Database className="w-6 h-6 text-primary-400" />
             </div>
             <h3 className="text-xl font-bold text-slate-200 mb-2">3. Public Explorer</h3>
-            <p className="text-slate-400 text-sm">Аудит-журнал для проверок на базе иммутабельной блокчейн-схемы.</p>
+            <p className="text-slate-400 text-sm">Аудит-журнал для проверок на базе иммутабельного криптографического реестра.</p>
           </Link>
 
         </div>

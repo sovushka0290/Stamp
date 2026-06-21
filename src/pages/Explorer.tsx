@@ -151,7 +151,7 @@ export function Explorer() {
           <div className="p-16 text-center flex flex-col items-center justify-center">
             <ShieldCheck className="w-12 h-12 text-slate-700 mb-4" />
             <p className="text-slate-400 font-mono">
-              В блокчейне пока нет записанных событий.
+              В реестре пока нет записанных событий.
             </p>
             <p className="text-sm text-slate-500 mt-2">
               Перейдите в терминал врача (Clinic MIS), чтобы симулировать прием.
@@ -159,7 +159,7 @@ export function Explorer() {
           </div>
         ) : (
           <div className="overflow-x-auto relative pl-4">
-            {/* Blockchain visual line */}
+            {/* Cryptographic visual line */}
             <div className="absolute left-8 top-12 bottom-8 w-[2px] bg-slate-800 z-0 hidden sm:block">
               {isAiScanning && (
                 <motion.div 

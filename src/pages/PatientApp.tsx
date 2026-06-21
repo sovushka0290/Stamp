@@ -56,7 +56,7 @@ export const PatientApp = () => {
           onClick={() => navigate('/explorer')}
           className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-xl transition-all shadow-md shadow-blue-200"
         >
-          Посмотреть в Blockchain Explorer
+          Посмотреть в Public Audit Explorer
         </button>
       </div>
     );
